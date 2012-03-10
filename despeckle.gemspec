@@ -25,6 +25,6 @@ file to MiniTest.
   s.require_paths = ["lib"]
 
   # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
+  s.add_development_dependency "rake"
   # s.add_runtime_dependency "rest-client"
 end
