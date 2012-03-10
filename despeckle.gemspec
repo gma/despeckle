@@ -7,9 +7,15 @@ Gem::Specification.new do |s|
   s.version     = Despeckle::VERSION
   s.authors     = ["Graham Ashton"]
   s.email       = ["graham@effectif.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "https://github.com/gma/despeckle"
+  s.summary     = %q{Script to help migrate from RSpect to MiniTest}
+  s.description = <<-EOF
+RSpec is fine and everything, but now that MiniTest ships with Ruby 1.9
+(and comes with the MiniTest::Spec language that's similar to RSpec),
+it's easy to give MiniTest a try. This gem provides a command line
+script that will do a lot of the drudgery involved in converting a spec
+file to MiniTest.
+  EOF
 
   s.rubyforge_project = "despeckle"
 
